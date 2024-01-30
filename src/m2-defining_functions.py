@@ -1,5 +1,8 @@
 ###############################################################################
-# TODO: 1. (2 pts)
+# DONE: 1. (2 pts)
+def hello():
+    print ("This is beginning to make sense")
+hello()
 #   First, let's define a function. Below this _TODO_, define a function named
 #       hello()
 #   that greets the user. It can say something like

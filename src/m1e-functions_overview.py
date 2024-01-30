@@ -17,7 +17,6 @@
 def add_two_and_three():
     result = 2 + 3
     print(result)
-
 ###############################################################################
 #   Now, if you try to run your code at this point, you will see that nothing
 #   gets printed. That is because we haven't "called" the function. We haven't
@@ -46,4 +45,4 @@ def add_two_and_three():
 #   ask them now.
 ###############################################################################
     
-# add_two_and_three()
+add_two_and_three()
