@@ -1,5 +1,8 @@
 ###############################################################################
-# TODO: 1. (4 pts)
+# DONE: 1. (4 pts)
+def name_and_color(name, color):
+    print (f"my name is {name} and my favorite color is {color}.")
+name_and_color ("nick", "red")
 #
 #   As you saw in your pre-class quiz, we can also define functions that take
 #   information and do stuff with it. This information that the function uses
@@ -24,7 +27,12 @@
 ###############################################################################
 
 ###############################################################################
-# TODO: 2. (4 pts)
+# Done: 2. (4 pts)
+def display_user_info(name, email, age):
+    print (f"NAME:{name}, EMAIL: {email}, AGE: {age} ")
+
+display_user_info (email = "lol what?", age = "900", name = "Abraham")
+
 #
 #   Now, let's do something similar, but let's use keyword arguments (this is
 #   also something that you saw in the pre-class materials).
@@ -53,4 +61,16 @@
 #   above, the order mattered.
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
-###############################################################################
+#################################################################################
+def cookies(number_of_cookies):
+    print(f"Cookies: {number_of_cookies}")
+    crumbs(4)
+
+def crumbs(number_of_crumbs):
+    print(f"Crumbs: {number_of_crumbs}")
+
+def main():
+    cookies(2)
+    cookies(5)
+
+main()

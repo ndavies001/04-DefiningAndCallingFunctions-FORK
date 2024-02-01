@@ -1,5 +1,8 @@
 ###############################################################################
-# TODO: 1. (3 pts)
+# DONE: 1. (3 pts)
+def volume (length, width, hieght):
+    return (length * width * hieght)
+print (volume(10, 10, 10))
 #
 #   Sometimes, we want to create a function that does some things but then
 #   gives us some information back when it is done. We call that "returning"
@@ -21,6 +24,9 @@
 
 ###############################################################################
 # TODO: 2. (2 pts)
+volume(10, 10, 10)
+width = volume(10, 10, 10)/100
+print (width)
 #
 #   Now let's call that function and get its information.
 #
@@ -44,4 +50,3 @@
 #   just made.
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
-###############################################################################

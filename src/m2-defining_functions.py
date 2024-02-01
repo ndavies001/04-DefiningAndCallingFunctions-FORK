@@ -13,7 +13,8 @@ hello()
 ###############################################################################
 
 ###############################################################################
-# TODO: 2. (1 pt)
+# Done: 2. (1 pt)
+hello()
 #   Now, we need to tell that function to run (in other words, tell it to do
 #   what we have defined it to do).
 #
@@ -27,6 +28,9 @@ hello()
 ###############################################################################
 # TODO: 3. (3 pts)
 #   Now, for practice, let's do that again!
+def goodbye():
+    print ("fare thee well dear user")
+goodbye()
 #
 #   Define a function called
 #       goodbye()
